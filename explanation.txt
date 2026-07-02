@@ -1,0 +1,25 @@
+
+
+typescript = javascript + types
+
+developed by microsoft
+
+typescript -> javascript
+
+
+
+javascript Problems
+
+1) No type checking
+2) run time errors
+3) Hard to maintain large projects
+4) Bugs only found after running
+
+
+Typescript solves
+
+1) detect errors while coding
+2) better intellisense
+3) safer for larger application
+4) Easy debugging
+5) type safety
