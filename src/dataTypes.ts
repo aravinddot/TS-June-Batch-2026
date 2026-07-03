@@ -39,3 +39,51 @@ console.log(value.toUpperCase())
 }
 
 
+
+// array
+
+
+const arr: (number | string | boolean | (string| number)[])[] = [1, 2, 3, "string", true, 1, ["playwright", "cypress"]]
+
+console.log(arr)
+
+
+const obj: {name: string, age: number, isActive: boolean} = {
+    name: "playwright",
+    age: 6,
+    isActive: true
+}
+
+
+console.log(obj)
+
+
+function print(): string[] {
+    return ["automation"]
+}
+
+
+const func = print()
+
+console.log(func)
+
+
+
+
+function printUserValues(name: string, age: number) {
+    console.log(name, age)
+}
+
+
+printUserValues('Admin', 12345)
+
+
+
+
+
+
+
+
+
+
+
