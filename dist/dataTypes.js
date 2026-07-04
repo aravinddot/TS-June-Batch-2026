@@ -16,7 +16,7 @@ if (typeof value === "string") {
     console.log(value.toUpperCase());
 }
 // array
-const arr = [1, 2, 3, "string", true, ["playwright", "cypress"]];
+const arr = [1, 2, 3, "string", true, 1, ["playwright", "cypress"]];
 console.log(arr);
 const obj = {
     name: "playwright",
