@@ -8,6 +8,8 @@ class ProductPages {
         console.log('checkout the cart');
     }
 }
+class signUp {
+}
 // child class
 class cartpage extends ProductPages {
     validateCartCheckout() {
